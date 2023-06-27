@@ -10,11 +10,11 @@ public class GameManager : MonoBehaviour
 
     public Paddle playerPaddle;
     public int playerScore;
-    public TextMeshPro playerScoreText;
+    public TextMeshProUGUI playerScoreText;
 
     public Paddle computerPaddle;
     public int computerScore;
-    public TextMeshPro computerScoreText;
+    public TextMeshProUGUI computerScoreText;
 
     void Start()
     {
